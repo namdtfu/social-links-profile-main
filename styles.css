@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --gray700: hsl(0, 0%, 20%);
+  --gray800: hsl(0, 0%, 12%);
+  --gray900: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: 'Inter', serif;
+  background-color: var(--gray900);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 85%;
+  max-width: 384px;
+  height: 600px;
+  background-color: var(--gray800);
+  padding: 24px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.picture {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+h2 {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.adress {
+  color: var(--green);
+  font-weight: 600;
+}
+
+.quote {
+  color: var(--white);
+  font-weight: 400;
+}
+
+div {
+  width: 85%;
+  height: 40px;
+  background-color: var(--gray700);
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 5px;
+}
